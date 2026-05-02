@@ -48,3 +48,6 @@ tree.insert(10); // Becomes the root
 tree.insert(5);  // Goes to the left of 10
 tree.insert(15); // Goes to the right of 10
 tree.insert(2);  // Goes to the left of 5
+
+// to see the output:
+console.log(JSON.stringify(tree, null, 2));
